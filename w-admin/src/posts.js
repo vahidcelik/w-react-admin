@@ -1,5 +1,6 @@
 import React from 'react';
 import { List, Datagrid, TextField, ReferenceField, EditButton } from 'react-admin';
+import { Edit, Create, SimpleForm, TextInput, ReferenceInput, SelectInput } from 'react-admin';
 
 export const PostList = props => (
     <List {...props}>
