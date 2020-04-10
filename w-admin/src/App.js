@@ -1,6 +1,6 @@
 // in src/App.js
 import React from 'react';
-import { Admin, Resource, EditGuesser } from 'react-admin';
+import { Admin, Resource } from 'react-admin';
 import { PostList, PostEdit, PostCreate } from './posts';
 import { UserList } from './users';
 import jsonServerProvider from 'ra-data-json-server';
